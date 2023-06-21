@@ -3748,7 +3748,7 @@ textarea.form-control-lg {
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: fixed;
-  top: 0;
+  top: 1;
   left: 0;
   right: 0;
   display: flex;
