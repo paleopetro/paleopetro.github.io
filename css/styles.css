@@ -3747,7 +3747,10 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-radius: 0.5rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -11075,12 +11078,12 @@ h1 {
   border: 0.6em;
   color: #1f003b;
   border-radius: pointer;
-  background-color: #ffffff;
+  background-color: #219ebc;
 }
 .card .img-container {
   width: 8em;
   height: 8em;
-  background-color: #a993ff;
+  background-color: #ff006e;
   padding: 0.5em;
   border-radius: 50%;
   margin: 0 auto 2em auto;
