@@ -11189,12 +11189,6 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
 }
-.team .member img:hover {
-  background: linear-gradient(#6045ea, #8567f7);
-  color: #ffffff;
-}
-.team .member img:hover .team .member img {
-  transform: scale(1.1);
 
 .team .member .member-content {
   padding: 0 20px 30px 20px;
