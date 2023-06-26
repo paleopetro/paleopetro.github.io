@@ -11176,18 +11176,33 @@ h1 {
 /*--------------------------------------------------------------
 # Our Team Section
 --------------------------------------------------------------*/
-.team .member {
+.memberall img {
   text-align: center;
-  background: #3a5a40;
-  border-radius: 10px;
-  padding: 15px;
+  background: #;
+  border-radius: 0px;
+  padding: 0px;
   overflow: hidden;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+.team .member {
+  text-align: center;
+  background: #;
+  border-radius: 0px;
+  padding: 0px;
+  overflow: hidden;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0);
+  width: 0px;
+  height: 0px;
 }
 
 .team .member img {
-  border-radius: 10px;
+  border-radius: 0px;
   overflow: hidden;
+  width:150px;
+  height: 150px;
+  text-align: center;
 }
 
 .team .member .member-content {
@@ -11195,10 +11210,10 @@ h1 {
 }
 
 .team .member h4 {
-  font-weight: 700;
+  font-weight: 100;
   margin-top: 16px;
   margin-bottom: 2px;
-  font-size: 20px;
+  font-size: 10px;
   color: #ffffff;
 }
 
@@ -11228,8 +11243,8 @@ h1 {
   color: #a2a2a2;
   transition: 0.3s;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width:20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
